@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  background-color: #624ed6;
+  background-color: #7cc6fe;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .app {
-  background-color: #d157d1;
+  background-color: #252d4a;
   width: 450px;
   min-height: 200px;
   height: min-content;
@@ -31,18 +31,19 @@ body {
   justify-content: space-evenly;
 }
 
-.result {
+.score-section {
   display: flex;
   font-size: 24px;
   align-items: center;
 }
+
 
 .question-section {
   width: 100%;
   position: relative;
 }
 
-.count {
+.question-count {
   margin-bottom: 20px;
 }
 
@@ -68,13 +69,13 @@ button {
   width: 100%;
   font-size: 16px;
   color: #ffffff;
-  background-color: #ca63c2;
+  background-color: #252d4a;
   border-radius: 15px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid #688b94;
+  border: 5px solid #234668;
   cursor: pointer;
 }
 
